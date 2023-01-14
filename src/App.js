@@ -13,18 +13,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-
       <Support />
       <AllInOne />
       <Pricing />
       <Footer />
-
-      <Support/>
-      <Footer/>
-
-      
-      
-      
     </>
   );
 }
