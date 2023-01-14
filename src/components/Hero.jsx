@@ -22,7 +22,7 @@ const Hero = () => {
                 <img className='w-full' src={bgImg} alt="/" />
             </div>
 
-            <div className='absolute flex flex-col py-3 md:min-w-[760px] bottom-[58%]
+            {/*div className='absolute flex flex-col py-3 md:min-w-[760px] bottom-[58%]
             mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
             border border-slate-300 rounded-xl text-center shadow-xl'>
                 <p className='text-bold text-lg'>Data Services</p>
@@ -32,7 +32,7 @@ const Hero = () => {
                     <p className='flex px-4 py-2 text-slate-500'><HiServer className='text-2xl text-indigo-600'/> Cloud Data</p>
                     <p className='flex px-4 py-2 text-slate-500'><HiPaperAirplane className='text-2xl text-indigo-600' /> API</p>
                 </div>
-            </div>
+            </div*/}
         </div>
     </div>
   )
