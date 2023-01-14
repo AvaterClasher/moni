@@ -14,7 +14,15 @@ const Hero = () => {
             <div>
                 <img src={bgImg} alt='/' />
             </div>
-            
+            <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl'>
+                <p>Data Services</p>
+                <div className='flex justify-between flex-wrap px-4'>
+                    <p className='flex px-4 py-2 text-slate-500'><i class="bi bi-cloud-arrow-up-fill h-6 text-indigo-600"></i> App Security</p>
+                    <p className='flex px-4 py-2 text-slate-500'><i class="bi bi-database-fill-check h-6 text-indigo-600"></i> Dashboard Design</p>
+                    <p className='flex px-4 py-2 text-slate-500'><i class="bi bi-hdd-rack-fill h-6 text-indigo-600"></i> Cloud Data</p>
+                    <p className='flex px-4 py-2 text-slate-500'><i class="bi bi-send-plus-fill h-6 text-indigo-600"></i> API</p>
+                </div>
+            </div>
         </div>
     </div>
   )
