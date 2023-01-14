@@ -21,9 +21,7 @@ const Hero = () => {
             <div>
                 <img className='w-full' src={bgImg} alt="/" />
             </div>
-<<<<<<< HEAD
-            
-=======
+
             <div className='absolute flex flex-col py-3 md:min-w-[760px] bottom-[58%]
             mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
             border border-slate-300 rounded-xl text-center shadow-xl'>
@@ -35,7 +33,6 @@ const Hero = () => {
                     <p className='flex px-4 py-2 text-slate-500'><HiPaperAirplane className='text-2xl text-indigo-600' /> API</p>
                 </div>
             </div>
->>>>>>> 51ed06d2b806ee94f29bbfb0d06b31f22fee8c49
         </div>
     </div>
   )
