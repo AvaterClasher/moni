@@ -31,7 +31,7 @@ const Footer = () => {
                     <li className='py-1'>API Status</li>
                 </ul>
             </div>
-            <div>
+            <div className="ml-[6px]">
                 <h6 className='font-bold uppercase pt-2'>Company</h6>
                 <ul>
                     <li className='py-1'>About</li>
@@ -41,7 +41,7 @@ const Footer = () => {
                     <li className='py-1'>Partners</li>
                 </ul>
             </div>
-            <div>
+            <div className="ml-[6px]">
                 <h6 className='font-bold uppercase pt-2'>Legal</h6>
                 <ul>
                     <li className='py-1'>Claims</li>
